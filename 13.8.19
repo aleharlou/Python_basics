@@ -8,7 +8,7 @@ for i in range(tickets):
         print("Билет бесплатный")
     elif 18 <= age < 25:
         price += 990
-        print('Стоимость билета 990 руб')
+        print("Стоимость билета 990 руб")
     else:
         price += 1390
         print("Стоимость билета 1390 руб")
