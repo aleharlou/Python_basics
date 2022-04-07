@@ -12,7 +12,7 @@ for i in range(tickets):
     else:
         price += 1390
         print("Стоимость билета 1390 руб")
-if tickets > 3:
+if tickets > 3: # если больше трёх человек - 10% скидка на общую стоимость заказа
     price = price * 0.9
     print("Общая стоимость", i, "билетов, включая 10% скидку,", price, "руб")
 else:
